@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SipScene Café - Our Menu</title>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-dim": "#e6d7d2",
+                      "primary-fixed": "#ffdbd0",
+                      "outline-variant": "#d4c3be",
+                      "on-secondary-fixed": "#281801",
+                      "surface-bright": "#fff8f6",
+                      "primary": "#442a22",
+                      "on-secondary": "#ffffff",
+                      "tertiary-fixed": "#e9e2d3",
+                      "surface-tint": "#77574d",
+                      "on-tertiary-container": "#bcb5a8",
+                      "tertiary-fixed-dim": "#cdc6b8",
+                      "surface-container-low": "#fff1ec",
+                      "outline": "#827470",
+                      "surface-variant": "#eedfda",
+                      "surface-container-highest": "#eedfda",
+                      "on-primary-fixed-variant": "#5d4037",
+                      "surface-container": "#faebe6",
+                      "on-primary": "#ffffff",
+                      "surface-container-lowest": "#ffffff",
+                      "tertiary": "#343127",
+                      "secondary-fixed-dim": "#e1c299",
+                      "on-error-container": "#93000a",
+                      "surface-container-high": "#f4e5e0",
+                      "error-container": "#ffdad6",
+                      "error": "#ba1a1a",
+                      "on-tertiary-fixed": "#1e1b13",
+                      "secondary-fixed": "#feddb3",
+                      "primary-container": "#5d4037",
+                      "inverse-surface": "#372f2b",
+                      "background": "#fff8f6",
+                      "on-surface-variant": "#504441",
+                      "on-secondary-container": "#765f3d",
+                      "on-background": "#211a17",
+                      "secondary": "#725a39",
+                      "on-primary-fixed": "#2c160e",
+                      "inverse-on-surface": "#fdeee8",
+                      "on-tertiary": "#ffffff",
+                      "on-error": "#ffffff",
+                      "primary-fixed-dim": "#e7bdb1",
+                      "on-surface": "#211a17",
+                      "surface": "#fff8f6",
+                      "on-tertiary-fixed-variant": "#4b463c",
+                      "on-primary-container": "#d4ada1",
+                      "secondary-container": "#fbdbb0",
+                      "inverse-primary": "#e7bdb1",
+                      "tertiary-container": "#4b473c",
+                      "on-secondary-fixed-variant": "#584324"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.25rem",
+                      "lg": "0.5rem",
+                      "xl": "0.75rem",
+                      "full": "9999px"
+              },
+              "spacing": {
+                      "stack-lg": "48px",
+                      "container-max": "1200px",
+                      "unit": "8px",
+                      "stack-md": "24px",
+                      "margin-desktop": "64px",
+                      "gutter": "24px",
+                      "margin-mobile": "20px",
+                      "stack-sm": "12px"
+              },
+              "fontFamily": {
+                      "h3": [
+                              "Epilogue"
+                      ],
+                      "label-sm": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "body-lg": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "body-md": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "h1": [
+                              "Epilogue"
+                      ],
+                      "h2": [
+                              "Epilogue"
+                      ]
+              },
+              "fontSize": {
+                      "h3": [
+                              "24px",
+                              {
+                                      "lineHeight": "1.3",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "14px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "0.05em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "1.6",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "h1": [
+                              "48px",
+                              {
+                                      "lineHeight": "1.1",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "h2": [
+                              "36px",
+                              {
+                                      "lineHeight": "1.2",
+                                      "letterSpacing": "-0.01em",
+                                      "fontWeight": "700"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+        .material-symbols-outlined {
+          font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .text-shadow-soft {
+            text-shadow: 0 4px 16px rgba(93, 64, 55, 0.15);
+        }
+      </style>
+</head>
+<body class="bg-surface text-on-surface antialiased selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-white/70 dark:bg-stone-900/70 backdrop-blur-xl border-b border-stone-200/50 dark:border-stone-800/50 shadow-[0_8px_32px_0_rgba(93,64,55,0.08)] font-['Epilogue'] tracking-tight text-[#5D4037] dark:text-stone-200">
+<div class="flex justify-between items-center w-full px-6 py-4 md:px-12 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-black text-[#5D4037] dark:text-stone-50">
+                SipScene Café
+            </div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-[#5D4037] transition-colors hover:bg-stone-100/50 dark:hover:bg-stone-800/50 rounded-lg px-3 py-1 active:scale-[0.98] duration-200" href="#">Home</a>
+<a class="text-[#5D4037] dark:text-stone-50 font-bold border-b-2 border-[#5D4037] dark:border-stone-50 pb-1 px-3 active:scale-[0.98] duration-200" href="#">Menu</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-[#5D4037] transition-colors hover:bg-stone-100/50 dark:hover:bg-stone-800/50 rounded-lg px-3 py-1 active:scale-[0.98] duration-200" href="#">Offers</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-[#5D4037] transition-colors hover:bg-stone-100/50 dark:hover:bg-stone-800/50 rounded-lg px-3 py-1 active:scale-[0.98] duration-200" href="#">Gallery</a>
+<a class="text-stone-600 dark:text-stone-400 font-medium hover:text-[#5D4037] transition-colors hover:bg-stone-100/50 dark:hover:bg-stone-800/50 rounded-lg px-3 py-1 active:scale-[0.98] duration-200" href="#">Contact</a>
+</nav>
+<button class="bg-[#5D4037] text-white px-6 py-2.5 rounded-full font-semibold hover:bg-opacity-90 transition-all active:scale-[0.98] shadow-md hidden md:block">
+                Order Now
+            </button>
+<!-- Mobile menu button -->
+<button class="md:hidden text-[#5D4037] p-2">
+<span class="material-symbols-outlined" data-icon="menu">menu</span>
+</button>
+</div>
+</header>
+<main class="pt-[100px] pb-stack-lg min-h-screen">
+<!-- Header Section -->
+<section class="max-w-[1200px] mx-auto px-gutter pt-stack-lg pb-stack-md text-center">
+<h1 class="font-h1 text-h1 text-primary mb-4">Our Menu</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                Discover a curated selection of artisanal coffees, delicate pastries, and vibrant mocktails. Every item is crafted with intention to fuel your day and elevate your scene.
+            </p>
+</section>
+<!-- Category Tabs -->
+<div class="sticky top-[72px] z-40 bg-surface/90 backdrop-blur-md py-4 border-b border-surface-container shadow-[0_4px_16px_0_rgba(93,64,55,0.03)] mb-stack-lg">
+<div class="max-w-[1200px] mx-auto px-gutter flex overflow-x-auto gap-4 scrollbar-hide no-scrollbar snap-x">
+<button class="snap-start whitespace-nowrap px-6 py-2.5 bg-primary text-on-primary rounded-full font-label-sm text-label-sm transition-transform active:scale-[0.98]">Coffee</button>
+<button class="snap-start whitespace-nowrap px-6 py-2.5 bg-surface-container text-on-surface hover:bg-surface-container-high rounded-full font-label-sm text-label-sm transition-transform active:scale-[0.98]">Snacks</button>
+<button class="snap-start whitespace-nowrap px-6 py-2.5 bg-surface-container text-on-surface hover:bg-surface-container-high rounded-full font-label-sm text-label-sm transition-transform active:scale-[0.98]">Desserts</button>
+<button class="snap-start whitespace-nowrap px-6 py-2.5 bg-surface-container text-on-surface hover:bg-surface-container-high rounded-full font-label-sm text-label-sm transition-transform active:scale-[0.98]">Mocktails</button>
+</div>
+</div>
+<!-- Menu Content -->
+<div class="max-w-[1200px] mx-auto px-gutter grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- COFFEE SECTION -->
+<div class="md:col-span-12 mb-stack-lg">
+<div class="flex items-center gap-4 mb-8">
+<h2 class="font-h2 text-h2 text-primary">Coffee</h2>
+<div class="h-[1px] flex-grow bg-surface-container-highest"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Barista's Choice Highlight -->
+<div class="bg-surface-container-low rounded-[1.5rem] overflow-hidden shadow-[0_8px_32px_0_rgba(93,64,55,0.06)] group hover:-translate-y-1 transition-transform duration-300">
+<div class="relative h-64 md:h-80 w-full">
+<img alt="Signature Mocha" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A top-down view of a beautifully crafted latte in a warm, textured ceramic mug sitting on a light oak wooden table. The latte art features an intricate, symmetrical rosetta pattern. Soft, natural sunlight filters in from a nearby window, casting gentle shadows and highlighting the rich mocha tones of the coffee and the creamy beige of the milk foam. The overall mood is cozy, premium, and Instagram-ready, fitting a modern minimalist cafe aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDd97VSX-Q5fstJvda_5sa_DFRcp1P2n0yfAoXtMJJJIXLqnR-6PSrdMiCYkiyEmkA4MY4elLVmL0T4sktgQJZoew5j5QjKJQMcGbwMVXvpZYNKC7RETdN0QYMrVfyosSm4x4CV0eaELDo9CS8viuBuQF45Don8OPu5vT4zTd8HUYnbO3ge25TdToEMXeuIyaQwzBuNBXpzks3GneNh350d1vYjh12ntv6xPM8326lk08c4zIQ3LeQOnLQuese2Cz9ksUj2ML487TY0"/>
+<div class="absolute top-4 left-4 bg-primary text-on-primary px-4 py-1.5 rounded-full font-label-sm text-label-sm flex items-center gap-2 backdrop-blur-md bg-opacity-90">
+<span class="material-symbols-outlined text-[16px]" data-icon="star">star</span>
+                                Barista's Choice
+                            </div>
+</div>
+<div class="p-6">
+<div class="flex justify-between items-start mb-2">
+<h3 class="font-h3 text-h3 text-primary">Velvet Vanilla Flat White</h3>
+<span class="font-h3 text-h3 text-secondary">$5.50</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                                Our signature double ristretto poured over silky steamed oat milk, infused with house-made Madagascar vanilla bean syrup.
+                            </p>
+<div class="flex gap-2">
+<span class="bg-secondary-container/30 text-secondary px-3 py-1 rounded-full font-label-sm text-label-sm">Vegan Option</span>
+</div>
+</div>
+</div>
+<!-- Regular Items List -->
+<div class="flex flex-col justify-center gap-6">
+<div class="group border-b border-surface-container pb-4 hover:bg-surface-container-low p-4 rounded-xl transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="font-h3 text-[20px] text-primary">Classic Espresso</h3>
+<span class="font-body-lg text-body-lg text-secondary font-semibold">$3.00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                A robust, single-origin double shot with notes of dark chocolate and bright cherry.
+                            </p>
+</div>
+<div class="group border-b border-surface-container pb-4 hover:bg-surface-container-low p-4 rounded-xl transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="font-h3 text-[20px] text-primary">Pour Over</h3>
+<span class="font-body-lg text-body-lg text-secondary font-semibold">$4.50</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-2">
+                                Hand-crafted filter coffee highlighting seasonal single-origin beans.
+                            </p>
+<div class="flex gap-2">
+<span class="bg-secondary-container/30 text-secondary px-3 py-1 rounded-full font-label-sm text-[12px]">Gluten-Free</span>
+</div>
+</div>
+<div class="group hover:bg-surface-container-low p-4 rounded-xl transition-colors">
+<div class="flex justify-between items-baseline mb-1">
+<h3 class="font-h3 text-[20px] text-primary">Iced Caramel Macchiato</h3>
+<span class="font-body-lg text-body-lg text-secondary font-semibold">$5.00</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                                Cold milk layered with espresso and a generous drizzle of buttery caramel.
+                            </p>
+</div>
+</div>
+</div>
+</div>
+<!-- SNACKS SECTION (Bento Style) -->
+<div class="md:col-span-12 mb-stack-lg">
+<div class="flex items-center gap-4 mb-8">
+<h2 class="font-h2 text-h2 text-primary">Snacks &amp; Bites</h2>
+<div class="h-[1px] flex-grow bg-surface-container-highest"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]">
+<!-- Chef's Special (Span 2 cols) -->
+<div class="md:col-span-2 relative rounded-[1.5rem] overflow-hidden group shadow-[0_8px_32px_0_rgba(93,64,55,0.06)]">
+<img alt="Avocado Toast" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="A close-up shot of artisanal avocado toast served on thick-cut sourdough bread. The toast is elegantly topped with sliced radishes, a sprinkle of microgreens, red pepper flakes, and a drizzle of olive oil. It sits on a textured, matte cream-colored plate. The lighting is bright, airy, and natural, creating a fresh and appetizing mood that aligns with a clean, modern lifestyle aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDAp_0VqncCBr0sMIb60OrFqUJ0Pux-L-rI281VnPczyZLoRXYlrqdyj_zWbzRfbLzhDEz5JGmagsKGAi-B_qsdW-kPmouRS23cklOsnhlsorv3tEz1kNhh_cpgTUugzeBE-1EcSjDkT3wi9IYPuH-WQApSn3pj7DD8slS-ANCshA-PWDhjStU0lJwX40SWl54cEa0A3smAkPyBFj66e_L66XXXwd3ZIS0QYoUK-6mE41v2PZsBP0BeT0MwOehtEZn6TYQxrzViVLfE"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6 w-full">
+<div class="inline-block bg-primary text-on-primary px-3 py-1 rounded-full font-label-sm text-[12px] mb-3">Chef's Special</div>
+<div class="flex justify-between items-end">
+<div>
+<h3 class="font-h3 text-h3 text-white mb-1">Truffle Avocado Toast</h3>
+<p class="font-body-md text-body-md text-stone-200 line-clamp-1">Smashed avocado, truffle oil, microgreens on sourdough.</p>
+</div>
+<span class="font-h3 text-h3 text-white">$12.00</span>
+</div>
+</div>
+</div>
+<!-- Regular Snack -->
+<div class="bg-surface-container p-6 rounded-[1.5rem] flex flex-col justify-between shadow-[0_4px_16px_0_rgba(93,64,55,0.04)] hover:shadow-[0_8px_24px_0_rgba(93,64,55,0.08)] transition-shadow">
+<div>
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-h3 text-[20px] text-primary">Almond Croissant</h3>
+<span class="font-body-lg text-body-lg text-secondary font-semibold">$4.50</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Twice-baked, flaky pastry filled with rich frangipane and topped with toasted almonds.</p>
+</div>
+<div class="mt-4">
+<span class="bg-surface-dim text-on-surface-variant px-3 py-1 rounded-full font-label-sm text-[12px]">Vegetarian</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-[#FDF5E6] dark:bg-stone-950 text-[#5D4037] dark:text-stone-200 font-['Epilogue'] text-sm leading-relaxed rounded-t-[2.5rem] mt-20 w-full px-8 py-16 md:px-24 flex flex-col md:flex-row justify-between items-start gap-12 outline-none focus:ring-2 focus:ring-[#5D4037]">
+<div>
+<div class="text-xl font-black text-[#5D4037] dark:text-stone-100 mb-4">SipScene Café</div>
+<p>© 2024 SipScene Café. Where every sip is a scene.</p>
+</div>
+<div class="flex flex-col md:flex-row gap-8 md:gap-12">
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#5D4037] hover:underline decoration-[#5D4037] underline-offset-4 transition-all" href="#">Privacy Policy</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#5D4037] hover:underline decoration-[#5D4037] underline-offset-4 transition-all" href="#">Terms of Service</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#5D4037] hover:underline decoration-[#5D4037] underline-offset-4 transition-all" href="#">Sustainability</a>
+<a class="text-stone-600 dark:text-stone-400 hover:text-[#5D4037] hover:underline decoration-[#5D4037] underline-offset-4 transition-all" href="#">Careers</a>
+</div>
+</footer>
+</body></html>
