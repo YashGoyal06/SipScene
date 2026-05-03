@@ -39,7 +39,7 @@ export const menuItems = [
     category: "Snacks",
     price: 119,
     description: "Golden fries tossed in our signature spicy peri peri seasoning.",
-    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
+    image: "/fries.png",
   },
   {
     id: 6,
