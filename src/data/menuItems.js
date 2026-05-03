@@ -47,7 +47,7 @@ export const menuItems = [
     category: "Snacks",
     price: 189,
     description: "A hearty veggie patty loaded with fresh lettuce, tomatoes, and house sauce.",
-    image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=800&q=80",
+    image: "/burger.png",
   },
   {
     id: 7,
@@ -72,7 +72,7 @@ export const menuItems = [
     category: "Desserts",
     price: 149,
     description: "Warm cake with a gooey, molten chocolate center.",
-    image: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=800&q=80",
+    image: "/choco_lava.png",
   },
   {
     id: 10,
