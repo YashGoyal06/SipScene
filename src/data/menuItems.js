@@ -1,0 +1,101 @@
+export const menuItems = [
+  {
+    id: 1,
+    name: "Classic Cappuccino",
+    category: "Coffee",
+    price: 129,
+    description: "Rich espresso combined with steamed milk and a deep layer of foam.",
+    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDd97VSX-Q5fstJvda_5sa_DFRcp1P2n0yfAoXtMJJJIXLqnR-6PSrdMiCYkiyEmkA4MY4elLVmL0T4sktgQJZoew5j5QjKJQMcGbwMVXvpZYNKC7RETdN0QYMrVfyosSm4x4CV0eaELDo9CS8viuBuQF45Don8OPu5vT4zTd8HUYnbO3ge25TdToEMXeuIyaQwzBuNBXpzks3GneNh350d1vYjh12ntv6xPM8326lk08c4zIQ3LeQOnLQuese2Cz9ksUj2ML487TY0", // Signature Mocha image
+    tag: "Barista's Choice"
+  },
+  {
+    id: 2,
+    name: "Iced Latte",
+    category: "Coffee",
+    price: 149,
+    description: "Chilled espresso, cold milk, and ice for a refreshing kick.",
+    image: "/iced_latte.jpg",
+  },
+  {
+    id: 3,
+    name: "Caramel Cold Coffee",
+    category: "Coffee",
+    price: 169,
+    description: "Sweet caramel blended with cold coffee, topped with whipped cream.",
+    image: "/Caramel-Iced-Coffee-6.jpg",
+  },
+  {
+    id: 4,
+    name: "Grilled Cheese Sandwich",
+    category: "Snacks",
+    price: 159,
+    description: "Crispy artisan bread packed with a blend of melted premium cheeses.",
+    image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=800&q=80",
+    tag: "Best Seller"
+  },
+  {
+    id: 5,
+    name: "Peri Peri Fries",
+    category: "Snacks",
+    price: 119,
+    description: "Golden fries tossed in our signature spicy peri peri seasoning.",
+    image: "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 6,
+    name: "Veggie Loaded Burger",
+    category: "Snacks",
+    price: 189,
+    description: "A hearty veggie patty loaded with fresh lettuce, tomatoes, and house sauce.",
+    image: "https://images.unsplash.com/photo-1585238342024-78d387f4a707?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 7,
+    name: "Chocolate Brownie",
+    category: "Desserts",
+    price: 139,
+    description: "Fudgy, dense chocolate brownie served warm.",
+    image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 8,
+    name: "Blueberry Cheesecake",
+    category: "Desserts",
+    price: 179,
+    description: "Creamy cheesecake topped with fresh blueberry compote.",
+    image: "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=800&q=80",
+    tag: "Chef's Special"
+  },
+  {
+    id: 9,
+    name: "Choco Lava Cake",
+    category: "Desserts",
+    price: 149,
+    description: "Warm cake with a gooey, molten chocolate center.",
+    image: "https://images.unsplash.com/photo-1624353365286-3f8d62daad51?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 10,
+    name: "Mint Mojito",
+    category: "Mocktails",
+    price: 129,
+    description: "A refreshing blend of fresh mint, lime juice, and soda.",
+    image: "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    id: 11,
+    name: "Blue Lagoon",
+    category: "Mocktails",
+    price: 149,
+    description: "Vibrant blue curacao syrup mixed with lemonade.",
+    image: "/blue_lagoon.png",
+  },
+  {
+    id: 12,
+    name: "Watermelon Cooler",
+    category: "Mocktails",
+    price: 139,
+    description: "Fresh watermelon juice, mint, and a hint of lime.",
+    image: "https://images.unsplash.com/photo-1589733955941-5eeaf752f6dd?auto=format&fit=crop&w=800&q=80",
+  }
+];
