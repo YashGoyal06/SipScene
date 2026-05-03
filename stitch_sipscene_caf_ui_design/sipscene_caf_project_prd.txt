@@ -1,0 +1,44 @@
+# Project PRD: SipScene Café Website Prototype
+
+## 1. Project Overview
+**Brand Name:** SipScene Café  
+**Tagline:** "Where Every Sip Feels Like a Scene"  
+**Project Goal:** To create a high-fidelity, modern website prototype for a fictional Gen-Z café. This serves as a premium visual reference for café owners, restaurants, and cloud kitchens, designed for easy conversion into a React-based application.
+
+## 2. Brand Identity & Design Vibe
+*   **Vibe:** Modern, Gen-Z friendly, warm, cozy, and "Instagrammable."
+*   **Color Palette:** Coffee brown, cream, beige, caramel, and soft dark tones.
+*   **Typography:** Modern sans-serif (e.g., Epilogue) with strong visual hierarchy and varying weights for a premium feel.
+*   **Visual Style:** Large rounded corners (ROUND_EIGHT), soft shadows, generous whitespace, and premium food photography.
+
+## 3. Target Audience
+*   **Primary:** Gen-Z and Millennial café-goers looking for aesthetic "hangout" spots.
+*   **Secondary:** Local food business owners, café proprietors, and restaurateurs seeking a modern digital presence.
+
+## 4. Site Structure & Key Features
+
+### A. Landing Page
+1.  **Navigation:** Logo, Home, Menu, Offers, Gallery, Contact, "Order Now" CTA.
+2.  **Hero Section:** Brand tagline, status badges (Open Now, Student Friendly), dual CTAs (View Menu, WhatsApp Order).
+3.  **About Section:** Brand story with highlight cards (Fresh Coffee, Cozy Ambience, Quick Orders).
+4.  **Featured Menu:** Tabbed categories with item cards.
+5.  **Today’s Special:** High-conversion offer banner.
+6.  **Digital QR Menu:** Scanning feature for in-café use.
+7.  **Gallery:** Aesthetic grid showcasing ambience and products.
+8.  **Social Proof:** Customer review cards and Instagram preview grid.
+9.  **Conversion Tools:** Table booking form, WhatsApp contact, and Google Maps integration.
+
+### B. Full Menu Page
+1.  **Categorization:** Coffee, Snacks, Desserts, Mocktails.
+2.  **Item Details:** High-quality imagery, item name, price, description, and dietary tags (Vegan, Gluten-Free).
+3.  **Highlights:** "Barista's Choice" and "Chef's Special" badges.
+
+## 5. Technical Specifications
+*   **Framework Compatibility:** Optimized for React/Tailwind CSS implementation.
+*   **Responsiveness:** Mobile-first design approach.
+*   **Interactions:** Subtle scale transitions and hover states for buttons and cards.
+*   **Accessibility:** High contrast ratios for text and clear indicator tags for dietary requirements.
+
+## 6. Content Requirements
+*   **Imagery:** Warm, high-resolution lifestyle and food photography.
+*   **Copy:** Welcoming, youthful, and lively tone.
